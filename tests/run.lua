@@ -1,7 +1,7 @@
 -- Minimal test runner: lua5.1 tests/run.lua (from repo root)
 package.path = "Contents/mods/RandomCitySpawn/42/media/lua/client/?.lua;tests/?.lua;" .. package.path
 
-local files = { "tests/test_picker.lua", "tests/stubs.lua", "tests/test_hooks.lua" }
+local files = { "tests/test_picker.lua", "tests/stubs.lua", "tests/test_hooks.lua", "tests/test_translations.lua" }
 local failed, passed = 0, 0
 
 for _, file in ipairs(files) do

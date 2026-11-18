@@ -1,0 +1,9 @@
+{
+    "UI_RandomCitySpawn_Name": "Ville aléatoire",
+    "UI_RandomCitySpawn_Desc": "Apparaître dans une ville aléatoire.",
+    "UI_RandomCitySpawn_OptionsTitle": "Random City Spawn",
+    "UI_RandomCitySpawn_Position": "Position de « Ville aléatoire »",
+    "UI_RandomCitySpawn_Position_Tooltip": "Où l'option « Ville aléatoire » apparaît dans la liste des lieux d'apparition.",
+    "UI_RandomCitySpawn_Position_Last": "En dernier",
+    "UI_RandomCitySpawn_Position_First": "En premier"
+}

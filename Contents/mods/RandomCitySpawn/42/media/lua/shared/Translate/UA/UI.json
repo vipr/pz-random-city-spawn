@@ -1,0 +1,9 @@
+{
+    "UI_RandomCitySpawn_Name": "Випадкове місто",
+    "UI_RandomCitySpawn_Desc": "З'явитися у випадковому місті.",
+    "UI_RandomCitySpawn_OptionsTitle": "Random City Spawn",
+    "UI_RandomCitySpawn_Position": "Позиція «Випадкове місто»",
+    "UI_RandomCitySpawn_Position_Tooltip": "Де пункт «Випадкове місто» показується у списку місць появи.",
+    "UI_RandomCitySpawn_Position_Last": "Останнім",
+    "UI_RandomCitySpawn_Position_First": "Першим"
+}

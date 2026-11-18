@@ -1,0 +1,9 @@
+{
+    "UI_RandomCitySpawn_Name": "Città casuale",
+    "UI_RandomCitySpawn_Desc": "Inizia in una città casuale.",
+    "UI_RandomCitySpawn_OptionsTitle": "Random City Spawn",
+    "UI_RandomCitySpawn_Position": "Posizione di «Città casuale»",
+    "UI_RandomCitySpawn_Position_Tooltip": "Dove compare la voce «Città casuale» nell'elenco dei luoghi di partenza.",
+    "UI_RandomCitySpawn_Position_Last": "In fondo",
+    "UI_RandomCitySpawn_Position_First": "In cima"
+}

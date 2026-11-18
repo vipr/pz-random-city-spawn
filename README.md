@@ -8,6 +8,8 @@ single-player game. Pick it, click Next, and you spawn in one of the listed citi
 
 Options > Mods > Random City Spawn > **Random city position**: Last (default) or First.
 
+Languages: English, French, Spanish, German, Italian, Ukrainian.
+
 While "Random city" is selected, the map on the right is replaced by a Random city picture.
 
 ## Install (local)
