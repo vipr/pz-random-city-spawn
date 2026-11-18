@@ -17,6 +17,12 @@ While "Random city" is selected, the map on the right is replaced by a Random ci
 Copy the folder `Contents/mods/RandomCitySpawn` to `%UserProfile%\Zomboid\mods\RandomCitySpawn`,
 then enable "Random City Spawn" in the game's Mods menu.
 
+## Steam Workshop
+
+The repository root is laid out as a Workshop item: copy it to `%UserProfile%\Zomboid\Workshop\RandomCitySpawn\`
+(it needs `preview.png`, `workshop.txt` and `Contents\`), then upload from the game's main menu (Workshop).
+The game fills in `id=` in `workshop.txt` after the first upload; commit that change.
+
 ## Artwork
 
 `tools/make_images.py` regenerates the picture, poster, icon and Workshop preview.
