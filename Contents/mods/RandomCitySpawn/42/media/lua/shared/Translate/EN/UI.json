@@ -1,4 +1,9 @@
 {
     "UI_RandomCitySpawn_Name": "Random city",
-    "UI_RandomCitySpawn_Desc": "Spawn in a random city."
+    "UI_RandomCitySpawn_Desc": "Spawn in a random city.",
+    "UI_RandomCitySpawn_OptionsTitle": "Random City Spawn",
+    "UI_RandomCitySpawn_Position": "Random city position",
+    "UI_RandomCitySpawn_Position_Tooltip": "Where the Random city entry appears in the spawn location list.",
+    "UI_RandomCitySpawn_Position_Last": "Last",
+    "UI_RandomCitySpawn_Position_First": "First"
 }

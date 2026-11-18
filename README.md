@@ -4,10 +4,20 @@ Adds a **Random city** entry at the top of the spawn location list when you star
 single-player game. Pick it, click Next, and you spawn in one of the listed cities
 (vanilla and modded maps), each with an equal chance. You find out where once you spawn.
 
+## Options
+
+Options > Mods > Random City Spawn > **Random city position**: Last (default) or First.
+
+While "Random city" is selected, the map on the right is replaced by a Random city picture.
+
 ## Install (local)
 
 Copy the folder `Contents/mods/RandomCitySpawn` to `%UserProfile%\Zomboid\mods\RandomCitySpawn`,
 then enable "Random City Spawn" in the game's Mods menu.
+
+## Artwork
+
+`tools/make_images.py` regenerates the picture, poster, icon and Workshop preview.
 
 ## Tests
 

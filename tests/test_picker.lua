@@ -51,3 +51,13 @@ function test_shouldShowEntry_rules()
   assert(P.shouldShowEntry({ cities[1] }) == false)
   assert(P.shouldShowEntry({ cities[1], cities[2], row("Random", nil) }) == false)
 end
+
+function test_coverRect_wide_box()
+  local x, y, w, h = P.coverRect(1024, 768, 800, 400)
+  assert(x == 0 and y == -100 and w == 800 and h == 600, x .. "," .. y .. "," .. w .. "," .. h)
+end
+
+function test_coverRect_tall_box()
+  local x, y, w, h = P.coverRect(1000, 500, 300, 300)
+  assert(x == -150 and y == 0 and w == 600 and h == 300, x .. "," .. y .. "," .. w .. "," .. h)
+end
