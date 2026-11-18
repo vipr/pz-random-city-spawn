@@ -30,12 +30,18 @@ MapSpawnSelect.fillList = function(self, ...)
     desc = getText("UI_RandomCitySpawn_Desc"),
     region = nil,
     dir = "",
+    -- All-zero zoom makes the map panel leave the map where it is.
+    zoomX = 0,
+    zoomY = 0,
+    zoomS = 0,
     isRandomCity = true,
   }
   listbox:insertItem(1, item.name, item)
   for i, row in ipairs(listbox.items) do row.itemindex = i end
   -- Keep the first real city as the default selection.
   listbox.selected = 2
+  -- Vanilla sized the list box before our row existed; size it again.
+  if self.recalculateMapSize then self:recalculateMapSize() end
 end
 
 MapSpawnSelect.clickNext = function(self, ...)

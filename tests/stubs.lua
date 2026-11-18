@@ -53,6 +53,10 @@ function MapSpawnSelect:fillList()
   if self.vanillaRandom then
     self.listbox:addItem("Random", { name = "Random", region = nil, dir = "", desc = "" })
   end
+  self:recalculateMapSize() -- vanilla sizes the list box at the end of fillList
+end
+function MapSpawnSelect:recalculateMapSize()
+  self.layoutRowCount = #self.listbox.items
 end
 function MapSpawnSelect:clickNext()
   self.spawnedIn = self.listbox.items[self.listbox.selected].item.region.name

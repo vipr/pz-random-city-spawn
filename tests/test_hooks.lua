@@ -89,3 +89,13 @@ function test_no_entry_when_vanilla_random_present()
   local s = filled(CITIES, { vanillaRandom = true })
   assert(randomRows(s) == 0)
 end
+
+function test_list_layout_counts_random_entry()
+  local s = filled()
+  assert(s.layoutRowCount == 4, "layout sized for " .. tostring(s.layoutRowCount) .. " rows")
+end
+
+function test_entry_has_zero_zoom_fields()
+  local item = filled().listbox.items[1].item
+  assert(item.zoomX == 0 and item.zoomY == 0 and item.zoomS == 0)
+end
