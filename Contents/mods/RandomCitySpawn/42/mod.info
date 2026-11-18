@@ -1,0 +1,4 @@
+name=Random City Spawn
+id=RandomCitySpawn
+description=Adds a "Random city" option to the spawn location list.
+versionMin=42.0.0
