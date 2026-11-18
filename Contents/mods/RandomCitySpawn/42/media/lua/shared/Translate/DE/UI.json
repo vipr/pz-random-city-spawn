@@ -1,0 +1,9 @@
+{
+    "UI_RandomCitySpawn_Name": "Zufällige Stadt",
+    "UI_RandomCitySpawn_Desc": "Starte in einer zufälligen Stadt.",
+    "UI_RandomCitySpawn_OptionsTitle": "Random City Spawn",
+    "UI_RandomCitySpawn_Position": "Position von „Zufällige Stadt“",
+    "UI_RandomCitySpawn_Position_Tooltip": "Wo der Eintrag „Zufällige Stadt“ in der Liste der Startorte erscheint.",
+    "UI_RandomCitySpawn_Position_Last": "Am Ende",
+    "UI_RandomCitySpawn_Position_First": "Am Anfang"
+}
