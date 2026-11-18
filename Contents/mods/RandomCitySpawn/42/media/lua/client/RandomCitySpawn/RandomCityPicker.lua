@@ -36,4 +36,12 @@ function RandomCityPicker.shouldShowEntry(listItems)
   return #RandomCityPicker.realIndices(listItems) >= 2
 end
 
+-- Scale a texW x texH image so it fully covers a boxW x boxH area (cropping
+-- the overflow), centered. Returns x, y, w, h relative to the box.
+function RandomCityPicker.coverRect(texW, texH, boxW, boxH)
+  local scale = math.max(boxW / texW, boxH / texH)
+  local w, h = texW * scale, texH * scale
+  return (boxW - w) / 2, (boxH - h) / 2, w, h
+end
+
 return RandomCityPicker

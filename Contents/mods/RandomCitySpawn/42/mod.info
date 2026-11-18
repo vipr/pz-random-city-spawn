@@ -1,4 +1,9 @@
 name=Random City Spawn
 id=RandomCitySpawn
-description=Adds a "Random city" option to the spawn location list.
+author=vipr
+poster=poster.png
+icon=icon.png
+url=https://github.com/vipr/pz-random-city-spawn
+modversion=1.0.0
 versionMin=42.0.0
+description=Adds a "Random city" option to the spawn location list. Pick it, click Next, and you start in one of the listed cities (vanilla and modded maps), each with an equal chance. You only find out where once you spawn. Choose whether the option appears first or last in Options > Mods. Single-player.
